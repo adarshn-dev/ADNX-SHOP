@@ -1,0 +1,5 @@
+// Replace <username> and <repo> with your GitHub username and repository name
+// Example: "homepage": "https://adarshn-dev.github.io/ADNX-SHOP/"
+{
+  "homepage": "https://<username>.github.io/<repo>/"
+}
