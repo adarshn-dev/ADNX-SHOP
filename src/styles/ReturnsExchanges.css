@@ -1,0 +1,83 @@
+/* src/styles/ReturnsExchanges.css */
+.returns-container {
+    background: linear-gradient(135deg, #f5e7e9, #d9c7e0);
+    min-height: 100vh;
+    padding: 80px 20px 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .returns-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .returns-title {
+    font-size: 2.5rem;
+    color: #4a2c4a;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .returns-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .returns-section {
+    margin-bottom: 25px;
+  }
+  
+  .returns-section h2 {
+    font-size: 1.6rem;
+    color: #4a2c4a;
+    margin-bottom: 10px;
+  }
+  
+  .returns-section p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  .returns-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .returns-section li {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+  
+  .returns-section a {
+    color: #9b6b9e;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .returns-section a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .returns-content {
+      padding: 20px;
+    }
+  
+    .returns-title {
+      font-size: 2rem;
+    }
+  
+    .returns-section h2 {
+      font-size: 1.4rem;
+    }
+  }

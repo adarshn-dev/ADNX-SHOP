@@ -1,0 +1,10 @@
+.app {
+  background-color: #fff;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}

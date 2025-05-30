@@ -1,0 +1,204 @@
+/* src/styles/Dashboard.css */
+.dashboard-wrapper {
+    background: linear-gradient(135deg, #f5e7e9, #d9c7e0);
+    min-height: 100vh;
+    padding: 80px 20px 20px; /* Extra top padding for Navbar */
+  }
+  
+  .dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Hero Section */
+  .dashboard-hero {
+    text-align: center;
+    padding: 40px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .dashboard-title {
+    font-size: 2.8rem;
+    color: #4a2c4a;
+    margin-bottom: 15px;
+  }
+  
+  .dashboard-subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .shop-now-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #9b6b9e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+  }
+  
+  .shop-now-btn:hover {
+    background-color: #7e527f;
+  }
+  
+  /* Profile Section */
+  .dashboard-profile {
+    margin-bottom: 40px;
+  }
+  
+  .profile-card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .profile-info h2 {
+    font-size: 1.5rem;
+    color: #4a2c4a;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  /* Featured Dresses */
+  .dashboard-featured {
+    margin-bottom: 40px;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #4a2c4a;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .dress-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .dress-card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .dress-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .dress-card p {
+    font-size: 1.1rem;
+    color: #4a2c4a;
+    margin: 5px 0;
+  }
+  
+  .dress-card span {
+    font-size: 1rem;
+    color: #9b6b9e;
+    font-weight: bold;
+  }
+  
+  /* Call to Action */
+  .dashboard-cta {
+    text-align: center;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cta-title {
+    font-size: 2rem;
+    color: #4a2c4a;
+    margin-bottom: 15px;
+  }
+  
+  .dashboard-cta p {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cart-btn, .home-btn {
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .cart-btn {
+    background-color: #9b6b9e;
+    color: #fff;
+  }
+  
+  .cart-btn:hover {
+    background-color: #7e527f;
+  }
+  
+  .home-btn {
+    background-color: #ddd;
+    color: #4a2c4a;
+  }
+  
+  .home-btn:hover {
+    background-color: #ccc;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-title {
+      font-size: 2rem;
+    }
+  
+    .profile-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .profile-img {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  
+    .cta-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }

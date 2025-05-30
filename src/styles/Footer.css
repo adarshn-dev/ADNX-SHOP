@@ -1,0 +1,157 @@
+.footer {
+  background-color: #fff;
+  padding: 40px 50px;
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Top Section */
+.footer-top {
+  margin-bottom: 20px;
+}
+
+.footer-tagline {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Divider */
+.footer-divider {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+}
+
+/* Middle Section */
+.footer-middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 20px 0;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+
+.footer-logo h1 {
+  font-size: 2rem;
+  color: #f36f6f;
+  margin: 0;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  text-align: left;
+}
+
+.footer-column h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  display: block;
+  text-decoration: none;
+  color: #555;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #f36f6f;
+}
+
+/* Bottom Section */
+.footer-bottom {
+  padding-top: 20px;
+}
+
+.footer-social {
+  margin: 20px 0;
+}
+
+.footer-social a {
+  margin: 0 15px;
+}
+
+.footer-social svg {
+  width: 30px;
+  height: 30px;
+  transition: fill 0.3s ease;
+}
+
+.footer-social a:hover svg {
+  fill: #f36f6f;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px;
+  }
+
+  .footer-middle {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+
+  .footer-links {
+    gap: 20px;
+    text-align: center;
+  }
+
+  .footer-column {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-logo h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-column h3 {
+    font-size: 1rem;
+  }
+
+  .footer-column a {
+    font-size: 0.9rem;
+  }
+}
